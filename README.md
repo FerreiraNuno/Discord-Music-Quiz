@@ -2,7 +2,7 @@
 
 ## Discord Bot to play the Song Guessing Game
 
-#### This Bot for the popular VoIP platform **discord** allows users to play the "Song Guessing Game". In which played songs need to be recognized by their name and artist.
+#### This Bot for the popular VoIP platform ***"discord"*** allows users to play the "Song Guessing Game". In which played songs need to be recognized by their name and artist.
 
 #### This was my first bigger programming project back in early 2020, during the covid outbreak.
 
