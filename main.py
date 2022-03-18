@@ -11,7 +11,7 @@ client = discord.Client()
 @client.event
 async def on_ready():
     print('We have logged in as {0.user}'.format(client))
-    game = discord.Game("with his balls")
+    game = discord.Game("Music")
     await client.change_presence(status=discord.Status.online, activity=game)
     print(client.guilds)
     for guild in client.guilds:
@@ -41,7 +41,7 @@ async def on_message(message):
     # start quiz
     if message.content.startswith("!quiz"):
         if message.author.voice is None:
-            await message.channel.send("**nigga, you ain't even in a voicechannel**")
+            await message.channel.send("**You're not even in a voicechannel**")
         else:
             client.number_input = True
             await message.channel.send("Plase select the number of rounds you want to play by sending the"
@@ -162,12 +162,12 @@ async def on_message(message):
                     await message.channel.send(embed=embed)
         elif message.content.startswith("!pass") and client.wrong_counter == 0 \
                 and client.pass_count_user.get(message.author.mention) == 0:
-            await message.channel.send("Bruh, why dont yall try at least once before passing?\nBut okay just type "
+            await message.channel.send("Why dont you all try at least once before passing?\nBut okay just type "
                                        "the pass command again if you're sure you don't know the answer...")
             client.wrong_counter += 1
         elif message.content.startswith("!pass") and client.wrong_counter > 0 \
                 and client.pass_count_user.get(message.author.mention) > 0:
-            await message.channel.send("**nigga, you already used your pass command**")
+            await message.channel.send("**You already used your pass command**")
 
         # input
         if not message.content.startswith("!") and message.author.guild == client.active_guild and client.game is True:
