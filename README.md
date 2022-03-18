@@ -21,12 +21,12 @@ Guide coming soon. For now lookup the official Discord guide on how to setup a B
 ## Screenshots
 Game Start
 
-<img src="./readme_img/screen1.png" alt="gameplay" width="600"/>
+<img src="./readme_img/screen1.png" alt="gameplay" width="450"/>
 
 Correct Answers
 
-<img src="./readme_img/screen2.png" alt="gameplay" width="600"/>
+<img src="./readme_img/screen2.png" alt="gameplay" width="450"/>
 
 Multiplayer
 
-<img src="./readme_img/screen3.png" alt="gameplay" width="600"/>
+<img src="./readme_img/screen3.png" alt="gameplay" width="450"/>
