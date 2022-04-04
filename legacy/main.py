@@ -251,4 +251,4 @@ async def on_message(message):
                 pass
 
 
-client.run('NzA0NDczNTMwNDg1NzAyNzQ4.XqdqGg.31vM6-txvhySiHRV8ooDXuRIAvI')
+client.run('old_token')
